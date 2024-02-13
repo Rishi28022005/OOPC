@@ -21,8 +21,8 @@ class car
     void getdata()
     {
         cout<<"enter model name :"<<endl;
-        getline(cin,model);
         fflush(stdin);
+        getline(cin,model);
         cout<<"enter showroom price(lakhs) :"<<endl;
         cin>>price;
         fflush(stdin);
